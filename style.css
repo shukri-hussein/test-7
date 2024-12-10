@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+}
+
+.header{
+    background-color: aqua;
+    color: black ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    font-size: 1em;
+}
+.logo h1{
+    font-size: 2em;
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    font-size: 2em;
+    font-weight: 500px;
+    list-style: none;
+}
+
+.btn-login{
+    background-color: transparent;
+    padding: 10px 40px;
+    color: orangered;
+    font-size: 1em;
+    border: 2px orangered solid;
+    border-radius: 20px
+}
+
+.btn-register{
+    background-color: orangered;
+    color: white;
+    padding: 10px 40px;
+    font-size: 1em;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+.showcase{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box0{
+    padding-top: 100px;
+    width: 500px;
+}
+
+.box0 h2{
+    font-size: 2.8em;
+    padding-top: 20px;
+    color: blue;
+}
+
+span{
+    color: orangered;
+}
+.box99{
+    margin-top: 90px;
+    border: 5px black solid;
+    border-radius: 50%;
+}
+
+.box99 img{
+    width: 300px;
+    border-radius: 50%;
+    padding-top: 10px;
+   
+
+}
+.boox{
+    background-color: orange;
+    padding: 10px 40px;
+    color: black;
+    font-size: 1em;
+    border: 2px orange solid;
+    border-radius: 18px;
+}
